@@ -11,8 +11,8 @@ public class Destruction : MonoBehaviour
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.F)){
-        Instantiate(DestructPerfub, transform.position, transform.rotation); //создаем разрушенный объект на сцене
-        Instantiate(ParticlePerfub, transform.position, transform.rotation); //создаем частицы на сцене
+        Instantiate( DestructPrefub, transform.position, transform.rotation); //создаем разрушенный объект на сцене
+        Instantiate(ParticlePrefub, transform.position, transform.rotation); //создаем частицы на сцене
         Destroy(gameObject); //удаляем текущий объект
         }
     }
