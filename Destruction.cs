@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Destruction : MonoBehaviour
 {
-    public GameObject DestructPerfub; //Перфаб разрушеного объекта
-    public GameObject ParticlePerfub; //перфаб частиц разрушения
+    public GameObject DestructPrefub; //Префаб разрушеного объекта
+    public GameObject ParticlePrefub; //префаб частиц разрушения
 
     // Update is called once per frame
     void Update()
